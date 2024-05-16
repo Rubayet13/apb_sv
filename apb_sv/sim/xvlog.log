@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ruba/github/apb_sv/rtl/apb.v" into library work
+INFO: [VRFC 10-311] analyzing module apb_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ruba/github/apb_sv/tb/tb_top/apb_interface.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ruba/github/apb_sv/tb/agent/agent_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ruba/github/apb_sv/tb/env/env_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ruba/github/apb_sv/tb/tb_top/apb_tb_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb

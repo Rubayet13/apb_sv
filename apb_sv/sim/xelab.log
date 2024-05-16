@@ -1,0 +1,19 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab tb --relax -s top --debug typical 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4468] File : /home/ruba/github/apb_sv/tb/agent/apb_trans.sv, Line : 5, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.env_pkg
+Compiling package work.agent_pkg
+Compiling package std.std
+Compiling module work.abp_if
+Compiling module work.apb_ram
+Compiling module work.tb
+Built simulation snapshot top

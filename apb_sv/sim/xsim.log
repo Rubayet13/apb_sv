@@ -1,0 +1,171 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri May 17 02:24:45 2024
+# Process ID: 37353
+# Current directory: /home/ruba/github/apb_sv/sim
+# Command line: xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file: /home/ruba/github/apb_sv/sim/xsim.log
+# Journal file: /home/ruba/github/apb_sv/sim/xsim.jou
+# Running On: Ruba, OS: Linux, CPU Frequency: 1190.402 MHz, CPU Physical cores: 4, Host memory: 10330 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+[DRV] : RESET DONE
+[GEN] : OP:error  paddr:3  pwdata:7  psel:0  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[DRV] : SLV ERROR
+[MON] : DATA WRITE data : 7 and addr : 56 write :1
+[SCO] : DATA RCVD wdata:7 rdata:0 addr:56 write:1
+[SCO] : SLV ERROR DETECTED
+[GEN] : OP:random  paddr:4  pwdata:7  psel:0  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 7 and addr : 4 write :1
+[DRV] : RANDOM OPERATION
+[SCO] : DATA RCVD wdata:7 rdata:0 addr:4 write:1
+[SCO] : DATA STORED DATA : 7 ADDR: 4
+[GEN] : OP:read  paddr:3  pwdata:4  psel:0  penable:0  pwrite:1  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 3
+[MON] : DATA READ data : 0 and addr : 3 write:0
+[SCO] : DATA RCVD wdata:7 rdata:0 addr:3 write:0
+[SCO] : Data Matched
+[GEN] : OP:error  paddr:3  pwdata:4  psel:1  penable:0  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : SLV ERROR
+[MON] : DATA READ data : x and addr : 56 write:0
+[SCO] : DATA RCVD wdata:7 rdata:0 addr:56 write:0
+[SCO] : SLV ERROR DETECTED
+[GEN] : OP:random  paddr:2  pwdata:3  psel:1  penable:0  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : RANDOM OPERATION
+[MON] : DATA READ data : 0 and addr : 2 write:0
+[SCO] : DATA RCVD wdata:7 rdata:0 addr:2 write:0
+[SCO] : Data Matched
+[GEN] : OP:random  paddr:4  pwdata:9  psel:0  penable:0  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : RANDOM OPERATION
+[MON] : DATA READ data : 7 and addr : 4 write:0
+[SCO] : DATA RCVD wdata:7 rdata:7 addr:4 write:0
+[SCO] : Data Matched
+[GEN] : OP:write  paddr:4  pwdata:7  psel:0  penable:0  pwrite:0  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 7 and addr : 4 write :1
+[DRV] : DATA WRITE OP data :7 and addr : 4
+[SCO] : DATA RCVD wdata:7 rdata:7 addr:4 write:1
+[SCO] : DATA STORED DATA : 7 ADDR: 4
+[GEN] : OP:read  paddr:3  pwdata:6  psel:1  penable:0  pwrite:1  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 3
+[MON] : DATA READ data : 0 and addr : 3 write:0
+[SCO] : DATA RCVD wdata:7 rdata:0 addr:3 write:0
+[SCO] : Data Matched
+[GEN] : OP:read  paddr:4  pwdata:2  psel:1  penable:0  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 4
+[MON] : DATA READ data : 7 and addr : 4 write:0
+[SCO] : DATA RCVD wdata:7 rdata:7 addr:4 write:0
+[SCO] : Data Matched
+[GEN] : OP:write  paddr:2  pwdata:5  psel:0  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 5 and addr : 2 write :1
+[DRV] : DATA WRITE OP data :5 and addr : 2
+[SCO] : DATA RCVD wdata:5 rdata:7 addr:2 write:1
+[SCO] : DATA STORED DATA : 5 ADDR: 2
+[GEN] : OP:write  paddr:3  pwdata:4  psel:1  penable:0  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 4 and addr : 3 write :1
+[DRV] : DATA WRITE OP data :4 and addr : 3
+[SCO] : DATA RCVD wdata:4 rdata:7 addr:3 write:1
+[SCO] : DATA STORED DATA : 4 ADDR: 3
+[GEN] : OP:read  paddr:3  pwdata:3  psel:1  penable:1  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 3
+[MON] : DATA READ data : 4 and addr : 3 write:0
+[SCO] : DATA RCVD wdata:4 rdata:4 addr:3 write:0
+[SCO] : Data Matched
+[GEN] : OP:read  paddr:3  pwdata:2  psel:0  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 3
+[MON] : DATA READ data : 4 and addr : 3 write:0
+[SCO] : DATA RCVD wdata:4 rdata:4 addr:3 write:0
+[SCO] : Data Matched
+[GEN] : OP:random  paddr:4  pwdata:6  psel:1  penable:1  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : RANDOM OPERATION
+[MON] : DATA READ data : 7 and addr : 4 write:0
+[SCO] : DATA RCVD wdata:4 rdata:7 addr:4 write:0
+[SCO] : Data Matched
+[GEN] : OP:random  paddr:2  pwdata:4  psel:1  penable:1  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : RANDOM OPERATION
+[MON] : DATA READ data : 5 and addr : 2 write:0
+[SCO] : DATA RCVD wdata:4 rdata:5 addr:2 write:0
+[SCO] : Data Matched
+[GEN] : OP:read  paddr:2  pwdata:8  psel:0  penable:0  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 2
+[MON] : DATA READ data : 5 and addr : 2 write:0
+[SCO] : DATA RCVD wdata:4 rdata:5 addr:2 write:0
+[SCO] : Data Matched
+[GEN] : OP:read  paddr:2  pwdata:9  psel:0  penable:0  pwrite:1  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 2
+[MON] : DATA READ data : 5 and addr : 2 write:0
+[SCO] : DATA RCVD wdata:4 rdata:5 addr:2 write:0
+[SCO] : Data Matched
+[GEN] : OP:random  paddr:4  pwdata:9  psel:0  penable:0  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 9 and addr : 4 write :1
+[DRV] : RANDOM OPERATION
+[SCO] : DATA RCVD wdata:9 rdata:5 addr:4 write:1
+[SCO] : DATA STORED DATA : 9 ADDR: 4
+[GEN] : OP:random  paddr:4  pwdata:2  psel:0  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 2 and addr : 4 write :1
+[DRV] : RANDOM OPERATION
+[SCO] : DATA RCVD wdata:2 rdata:5 addr:4 write:1
+[SCO] : DATA STORED DATA : 2 ADDR: 4
+[GEN] : OP:read  paddr:4  pwdata:2  psel:1  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 4
+[MON] : DATA READ data : 2 and addr : 4 write:0
+[SCO] : DATA RCVD wdata:2 rdata:2 addr:4 write:0
+[SCO] : Data Matched
+[GEN] : OP:write  paddr:2  pwdata:3  psel:1  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 3 and addr : 2 write :1
+[DRV] : DATA WRITE OP data :3 and addr : 2
+[SCO] : DATA RCVD wdata:3 rdata:2 addr:2 write:1
+[SCO] : DATA STORED DATA : 3 ADDR: 2
+[GEN] : OP:random  paddr:2  pwdata:9  psel:1  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 9 and addr : 2 write :1
+[DRV] : RANDOM OPERATION
+[SCO] : DATA RCVD wdata:9 rdata:2 addr:2 write:1
+[SCO] : DATA STORED DATA : 9 ADDR: 2
+[GEN] : OP:read  paddr:4  pwdata:7  psel:0  penable:1  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 4
+[MON] : DATA READ data : 2 and addr : 4 write:0
+[SCO] : DATA RCVD wdata:9 rdata:2 addr:4 write:0
+[SCO] : Data Matched
+[GEN] : OP:random  paddr:4  pwdata:7  psel:0  penable:0  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : RANDOM OPERATION
+[MON] : DATA READ data : 2 and addr : 4 write:0
+[SCO] : DATA RCVD wdata:9 rdata:2 addr:4 write:0
+[SCO] : Data Matched
+[GEN] : OP:read  paddr:3  pwdata:8  psel:0  penable:0  pwrite:1  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 3
+[MON] : DATA READ data : 4 and addr : 3 write:0
+[SCO] : DATA RCVD wdata:9 rdata:4 addr:3 write:0
+[SCO] : Data Matched
+[GEN] : OP:random  paddr:3  pwdata:9  psel:1  penable:0  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 9 and addr : 3 write :1
+[DRV] : RANDOM OPERATION
+[SCO] : DATA RCVD wdata:9 rdata:4 addr:3 write:1
+[SCO] : DATA STORED DATA : 9 ADDR: 3
+[GEN] : OP:read  paddr:2  pwdata:7  psel:0  penable:0  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : DATA READ OP addr : 2
+[MON] : DATA READ data : 9 and addr : 2 write:0
+[SCO] : DATA RCVD wdata:9 rdata:9 addr:2 write:0
+[SCO] : Data Matched
+[GEN] : OP:error  paddr:2  pwdata:4  psel:1  penable:1  pwrite:0  prdata:0  pready:0  pslverr:0
+[DRV] : SLV ERROR
+[MON] : DATA READ data : x and addr : 91 write:0
+[SCO] : DATA RCVD wdata:9 rdata:0 addr:91 write:0
+[SCO] : SLV ERROR DETECTED
+[GEN] : OP:error  paddr:4  pwdata:8  psel:0  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 8 and addr : 67 write :1
+[DRV] : SLV ERROR
+[SCO] : DATA RCVD wdata:8 rdata:0 addr:67 write:1
+[SCO] : SLV ERROR DETECTED
+[GEN] : OP:error  paddr:2  pwdata:9  psel:0  penable:1  pwrite:1  prdata:0  pready:0  pslverr:0
+[MON] : DATA WRITE data : 9 and addr : 68 write :1
+[DRV] : SLV ERROR
+[SCO] : DATA RCVD wdata:9 rdata:0 addr:68 write:1
+[SCO] : SLV ERROR DETECTED
+$finish called at time : 3190 ns : File "/home/ruba/github/apb_sv/tb/env/apb_env.sv" Line 60
+exit
+INFO: [Common 17-206] Exiting xsim at Fri May 17 02:24:50 2024...

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri May 17 02:24:45 2024
+# Process ID: 37353
+# Current directory: /home/ruba/github/apb_sv/sim
+# Command line: xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file: /home/ruba/github/apb_sv/sim/xsim.log
+# Journal file: /home/ruba/github/apb_sv/sim/xsim.jou
+# Running On: Ruba, OS: Linux, CPU Frequency: 1190.402 MHz, CPU Physical cores: 4, Host memory: 10330 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+run -all
